@@ -1,0 +1,25 @@
+# Django Authentication System Requirements
+# This file lists all the Python packages needed to run the Django backend
+# Install these packages by running: pip install -r requirements.txt
+
+# Core Django framework
+Django==5.2.4
+
+# Django REST Framework for API functionality
+djangorestframework==3.14.0
+
+# Django CORS Headers for handling cross-origin requests from React
+django-cors-headers==4.3.1
+
+# Additional useful packages for development
+# These are optional but helpful for debugging and development
+
+# For better development experience (optional)
+# django-debug-toolbar==4.2.0
+
+# For enhanced admin interface (optional)
+# django-extensions==3.2.3
+
+# For production deployment (optional)
+# gunicorn==21.2.0
+# whitenoise==6.6.0
